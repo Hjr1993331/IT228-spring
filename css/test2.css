@@ -1,0 +1,10 @@
+.fade-img {
+    position: relative;
+    z-index: -1;
+  }
+  
+  .fade-img img {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+  }
