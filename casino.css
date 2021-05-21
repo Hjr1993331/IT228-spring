@@ -1,0 +1,60 @@
+body {
+    background: aquamarine;
+}
+
+#main {
+    width:300px;
+    
+}
+
+main {
+    width:300px;
+    
+    margin: 0 auto;
+}
+
+
+nav {
+    padding-top:10px;
+    width:300px;
+    margin: 0 auto;
+}
+
+
+
+
+
+.thumbnails img {
+    width:72px;
+}
+
+.thumbnails {
+    display:grid;
+    grid-template-columns: repeat(4, 72px);
+    gap:4px;
+}
+
+ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+li {
+    list-style: none;
+}
+
+#play {
+    cursor: pointer;
+    user-select: none;
+    background: #f44336;
+    padding:8px;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0 4px 0 #d1483e;
+}
+
+#play:active {
+    margin-top:5px;
+    box-shadow: none;
+}
