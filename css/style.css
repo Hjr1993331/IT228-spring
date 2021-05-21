@@ -154,7 +154,10 @@ input {
     right:15px;
 }
 
-
+.career {
+    margin:20px;
+    font-size: 1.2em;;
+}
 
 .rule {
     font-size:1.3em;
@@ -163,9 +166,16 @@ input {
     margin:10px 20px 10px 10px;
 }
 
+.thxform {
+    font-size: 1.7em;
+    font-weight:900;
+    line-height: 50px;
+    margin:20px;
+}
 
 
 
+@media all and (min-width:1280px) {
 
 .page {
     z-index:10;
@@ -358,6 +368,27 @@ ul.slides li p {
     position: relative;
 }
 
+#prevBtn {
+    position:absolute;
+    top:52%;
+    left:5.2%;
+    z-index:10;
+    font-size:30px;
+    color:white;
+    opacity: .6;
+    cursor:pointer;
+}
+
+#nextBtn {
+position:absolute;
+top:52%;
+    z-index:10;
+    left:92%;
+    font-size:30px;
+    color:white;
+    opacity: .6;
+    cursor:pointer;
+}
 
 .screen {
     width:100%;
@@ -375,8 +406,50 @@ ul.slides li p {
     margin:30px auto;
 }
 
+.myfname, .mylname {
+    display:none;
+} 
+
+.myfname2 {
+
+    margin:100px 30px 0px 30px;
+    
+    text-align: center;
+    letter-spacing: 30px;
+    font-size:2em;
+    text-shadow:  3px 3px 5px royalblue;
+}
+
+.mylname2 {
+    margin: 3px 70px;
+    text-align: center;
+    letter-spacing: 30px;
+    font-size:2em;
+    text-shadow:  3px 3px 5px royalblue;
+}
+
+.mypic {
+    float:left;
+    width:50%;
+    height:600px;
+    margin:30px;
+}
+
+.mypic2 {
+    display: none;
+}
+
+.about {
+    float:right;
+    width:40%;
+}
 
 
+.attend {
+    float:right;
+    clear:both;
+    margin:30px 0 0 0;
+}
 
 .title {
     font-size: 3em;
@@ -455,6 +528,16 @@ article {
 
 
 
+fieldset {
+   padding:20px; 
+}
+
+.submit {
+    margin: 31px;
+    top: 87%;
+    position: absolute;
+    left: 39%;
+}
 
 span {
     display:block;
@@ -484,4 +567,5 @@ span {
 
 }
 
+}
 
