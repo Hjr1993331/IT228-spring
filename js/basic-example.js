@@ -1,0 +1,1 @@
+$('header').hide().fadeIn(2000);
