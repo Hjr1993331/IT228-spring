@@ -1,32 +1,39 @@
 'use strict';
 
 {
-    const images = [
-         'img/pic00.png',
-         'img/pic01.png',
-         'img/pic02.png',
-         'img/pic03.png',
-         'img/pic04.png',
-         'img/pic05.png',
-         'img/pic06.png',
-         'img/pic07.png',
-    ]
+
+    
+        const images = [
+         'img/youlose.jpg',
+         'img/youlose.jpg',
+         'img/youlose.jpg',
+         'img/youlose.jpg',
+         'img/25cents.jpg',
+         'img/1dollar.jpg',
+         'img/500dollar.jpg',
+         'img/youlose.jpg',
+         
+         
+        ];
+    
+
     let currentIndex = 0;
 
 
     const mainImage = document.getElementById('main');
-    mainImage.src = images[currentIndex];
+   
 
 
     images.forEach((image, index) => {
         const img = document.createElement('img');
-        img.src = image;
-
+        img.src = images[Math.floor(Math.random() * images.length)];
         const li = document.createElement('li');
         li.addEventListener('click', () => {
-            mainImage.src = image;
+            mainImage.src = img.src;
             const thumbnails = document.querySelectorAll('.thumbnails > li');
+            thumbnails[currentIndex].classList.remove('space');
             currentIndex = index;
+            thumbnails[currentIndex].classList.add('space');
         });
 
         li.appendChild(img);
@@ -42,16 +49,32 @@
         document.querySelectorAll('.thumbnails > li')[target].click();
     });
 
+
+
+    let timeoutId;
+
     function playSlide() {
-        setTimeout(() => {
+        timeoutId = setTimeout(() => {
             next.click();
             playSlide();
-        }, 1000);
+        }, 95);
     }
+
+   
+    let isPlaying = false;
 
     const play = document.getElementById('play');
     play.addEventListener('click', () => {
-        playSlide();
+        if (isPlaying === false) {
+            playSlide();
+            play.textContent = 'Stop';
+        } else {
+            clearTimeout(timeoutId);
+            play.textContent = 'Start again';
+        }
+        isPlaying = !isPlaying;
+        
+        
     });
 
 }

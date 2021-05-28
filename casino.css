@@ -3,12 +3,12 @@ body {
 }
 
 #main {
-    width:300px;
+    width:400px;
     
 }
 
 main {
-    width:300px;
+    width:400px;
     
     margin: 0 auto;
 }
@@ -25,13 +25,27 @@ nav {
 
 
 .thumbnails img {
-    width:72px;
+    width:70px;
+    
 }
 
 .thumbnails {
     display:grid;
-    grid-template-columns: repeat(4, 72px);
-    gap:4px;
+    grid-template-columns: repeat(4, 106px);
+    margin-left: 7.5px;
+}
+
+.thumbnails li:hover,
+.thumbnails li.space {
+    transform:scale(0.9);
+    
+    
+}
+
+h1 {
+    text-align: center;
+    margin:10px;
+    font-size: 1.4em;
 }
 
 ul {
@@ -45,6 +59,8 @@ li {
 }
 
 #play {
+    float:left;
+    width:40%;
     cursor: pointer;
     user-select: none;
     background: #f44336;
@@ -55,6 +71,29 @@ li {
 }
 
 #play:active {
+    margin-top:5px;
+    box-shadow: none;
+}
+
+#reset {
+    float:right;
+    width:40%;
+    
+    cursor: pointer;
+    user-select: none;
+    background: #00aaff;
+    padding:8px;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0 4px 0 #0088cc;
+}
+
+#reset a {
+    text-decoration: none; 
+    padding:42px; 
+}
+
+#reset:active {
     margin-top:5px;
     box-shadow: none;
 }
