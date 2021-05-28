@@ -569,3 +569,553 @@ span {
 
 }
 
+
+@media all and (min-width:768px) and (max-width:1279px) {
+
+    .inner-header {
+        width:100%;
+        height:110px;
+        background: rgba(214, 179, 179, 0.6); 
+        position:fixed;
+        top:0;
+    
+    }
+    nav {
+        width: 85%;
+        float: right;
+        margin-top: 45px;
+        
+    }
+    
+    nav li{
+        float: left;
+        margin-left: 10px;
+        width:140px;
+        text-align: center;
+        list-style-type: none;
+    
+    }
+    
+    nav a {
+        font-size: 1.7em;
+        color:blue;    
+    text-shadow: 3px 0 #888888;
+    letter-spacing:2px;
+    font-weight:bold;
+        text-decoration: none; 
+        
+    }
+    
+    nav a:hover {
+        background: lightblue;
+        padding:15px 25px 15px 25px;
+        border-radius:20px; 
+    } 
+
+    
+    
+      .name {
+        z-index:10;
+        top:15%;
+        left:28%;
+        font-size: 2em;
+        position:absolute;
+        color:white;
+        text-shadow: 2px 1px aquamarine;
+    
+    }  
+
+    .page {
+        z-index:10;
+        top:22%;
+        left:43%;
+        font-size: 2em;
+        position:absolute;
+        color:hotpink;
+        text-shadow: 2px 2px red;
+    }
+    
+    .marvei {
+        float:left;
+        width:45%;
+    
+    }
+    
+    .marvel {
+        float:right;
+        width:45%;
+        
+    }
+
+    
+    
+fieldset {
+    z-index:10;
+    top:24%;
+    left:28%;
+    position:absolute;
+}
+
+.submit {
+    margin: 31px;
+    top: 89%;
+    position: absolute;
+    left: 32.5%;
+}
+
+.wrapper {
+    width:100%;
+    margin:30px auto;
+}
+
+.title, .titles {
+    font-size: 3em;
+    letter-spacing: 20px;
+    text-align: center !important;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.mypic {
+    display: none;
+}
+
+
+.mypic2 {
+    width:100%;
+    height:300px;
+    margin-top: 20px;
+}
+
+.myfname {
+
+    margin:30px 30px 0px 30px;
+    
+    text-align: center;
+    letter-spacing: 30px;
+    font-size:2em;
+    text-shadow:  3px 3px 5px royalblue;
+}
+
+.mylname {
+    margin: 3px 70px;
+    text-align: center;
+    letter-spacing: 30px;
+    font-size:2em;
+    text-shadow:  3px 3px 5px royalblue;
+}
+
+.myfname2, .mylname2 {
+    display:none;
+} 
+
+#class {
+    width:100%;
+    margin:0 auto;
+    margin-top:75px;
+    height:640px;
+    /* background:#ccc;
+    border: 2px solid black; */
+    padding: 0 6px 10px 0;
+    clear: both;
+}
+
+
+.logo {
+    height:150px;
+    width:16.9%;
+    margin:10px;
+    display:inline-block;
+    box-shadow: 0 0 20px -5px rgba(0, 0, 0, .8);
+    border-radius:70%;
+}
+
+.logo2 {
+    height:150px;
+    width:18.3%;
+    margin:10px;
+    display:inline-block;
+    box-shadow: 0 0 20px -5px rgba(0, 0, 0, .8);
+    border-radius:70%;
+}
+
+
+.one {
+    width:100%;
+    height:180px;
+
+}
+
+.two {
+    width:100%;
+    height:180px;
+    padding-left:12%;
+
+}
+
+
+article {
+    width:100%;
+    margin:auto;
+}
+
+.infomation {
+    text-align: center;
+    margin: 20px;
+}
+
+.telphone {
+    display: block;
+    width:100%;
+}
+
+
+.email {
+    display: block;
+    width:100%;
+}
+
+.info {
+    text-align: center;
+    margin:20px;
+    font-size:1.5em;
+}
+
+.imglogo {
+    margin-top:20px;
+    
+    border-radius: 75%;
+    width:150px;
+    height:150px;
+}
+
+.imglogo2 {
+    margin-top:20px;
+    border-radius: 75%;
+    width:150px;
+    height:150px;
+}
+
+
+.footer {
+    
+    display: block;
+    line-height: 30px;
+    list-style-type: none;
+    text-align: center;
+    font-weight: 900;
+}
+
+.below {
+    width:93.5%;
+    margin-right:20px;
+}
+
+span {
+    display:block;
+    font-size: .7em;
+    margin-top:10px;
+    font-weight: 900;
+    color:white;
+    text-shadow: 2px 2px gray;
+    font-style:oblique;
+}
+
+
+
+
+.icon {
+    display: none;
+}
+
+
+.logo3 {
+    display: none;
+}
+
+.top_thx {
+    z-index:10;
+    top:25%;
+        left:38.5%;
+    font-size: 2.3em;
+    position:absolute;
+    color:white;
+    text-shadow: 2px 1px aquamarine;
+}
+
+
+.check2 {
+    display:block;
+    margin:20px auto;
+    border-radius: 90%;
+    width:200px;
+    height:200px;
+    
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:767px) {
+
+    .inner-header {
+        width:100%;
+    
+        position:fixed;
+        top:0;
+    
+    }
+    
+   
+    .container, .present, .green, .lid, .box, .bow, .ribbon, .page, fieldset {
+        display: none;
+    }
+
+    .fade-img {
+        position:relative;
+        z-index: -1;
+        height:500px;
+      }
+      
+      .fade-img img {
+        position:absolute;
+        height: 500px;
+        width: 100%;
+      }
+    
+    ul.topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:rgba(214, 179, 179, 0.7); 
+    }
+
+    ul.topnav li:not(:first-child) {display: none;}
+    ul.topnav li.icon {
+      float: right;
+      display: inline-block;
+     }    
+      
+      
+    ul.topnav.responsive {position: relative;}
+    ul.topnav.responsive li.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  
+    ul.topnav.responsive li {
+      float: none;
+      display: inline;
+    }
+  
+    ul.topnav.responsive li a {
+      display: block;
+      text-align: left;
+      float:none;  
+    }
+      
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  ul.topnav li {
+      list-style-type: none;
+      float:left;
+      font-weight: 800;
+      position:relative;
+      
+      }
+   
+  
+  .topnav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+  .topnav .icon {
+    display: none;
+  }
+
+
+  .name {
+    z-index:10;
+    top:38%;
+    left:6%;
+    font-size: 2em;
+    position:absolute;
+    color:white;
+    text-shadow: 2px 1px aquamarine;
+
+}  
+
+
+
+.mypic2 {
+    display: none;
+}
+
+
+.mypic {
+    width:100%;
+    height:400px;
+    margin-top: 20px;
+}
+
+
+#first, #second, #third {
+    height:100px;
+    width:27%;
+    margin:10px;
+    display:inline-block;
+    box-shadow: 0 0 20px -5px rgba(0, 0, 0, .8);
+    border-radius:70%;
+}
+
+#fourth {
+    display:none;
+}
+
+.imglogo {
+    margin-top:20px;
+    
+    border-radius: 75%;
+    width:150px;
+    height:150px;
+}
+
+.imglogo2 {
+    margin-top:20px;
+    border-radius: 75%;
+    width:150px;
+    height:150px;
+}
+
+
+.title, .titles {
+    font-size: 2em;
+    letter-spacing: 20px;
+    text-align: center !important;
+   margin:20px;
+    text-transform: uppercase;
+}
+
+
+article {
+    width:100%;
+    margin:0 auto;
+    clear:both;
+}
+
+.below {
+    width:89%;
+    margin-right:20px;
+}
+
+
+.footer {
+    
+    display: block;
+    line-height: 30px;
+    list-style-type: none;
+    text-align: center;
+    font-weight: 900;
+}
+
+
+.info {
+    text-align: center;
+    margin:20px;
+}
+
+.telphone {
+    display: block;
+    width:100%;
+}
+
+
+.email {
+    display: block;
+    width:100%;
+}
+
+.infomation {
+    text-align: center;
+    margin:20px;
+    font-size:1.5em;
+}
+
+.mylname {
+    margin: 3px 70px;
+    text-align: center;
+    letter-spacing: 30px;
+    font-size:2em;
+    text-shadow:  3px 3px 5px royalblue;
+}
+
+.myfname2, .mylname2 {
+    display:none;
+} 
+
+.myfname {
+
+    margin:20px 30px 0px 30px;
+    
+    text-align: center;
+    letter-spacing: 30px;
+    font-size:2em;
+    text-shadow:  3px 3px 5px royalblue;
+}
+
+.top_thx {
+    z-index:10;
+    top:25%;
+        left:38.5%;
+    font-size: 2.3em;
+    position:absolute;
+    color:white;
+    text-shadow: 2px 1px aquamarine;
+}
+
+
+.check2 {
+    display:block;
+    margin:20px auto;
+    border-radius: 90%;
+    width:200px;
+    height:200px;
+    
+}
+
+
+
+}
