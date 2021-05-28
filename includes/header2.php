@@ -27,10 +27,7 @@
 <div class="ribbon"></div></div>
 </div>
 <nav>
-<ul id="myTopnav" class="topnav"> 
-<?php echo makeLinks($nav); ?>
-<li class="icon"> 
-          <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li>
+
 </ul>
 </nav>
 </div>
@@ -43,10 +40,4 @@
         <img src="images/scenery7.jpg" alt="<?php echo $alt; ?>"> 
 </div>        
 <h1 class="name">Hijiri Maruo's Portfolio</h1>      
-
-
-
-<?php 
-include('includes/form.php'); ?>
-
 
