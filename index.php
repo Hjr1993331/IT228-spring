@@ -52,16 +52,17 @@ include('includes/header.php');
 
 <article>
 <h2 id="contact" class="title">Contact</h2> 
-<h3 class="infomation">My contact information</p> 
+<h3 class="infomation">My contact information</p>
+<h3 class="infomation">I'll give you more information after I receive your contact form!</p>   
 <div class="telphone">  
 <img class="imglogo" src="images/mobilephone.png" alt="Mobilephone logo"> 
 <p class="info">My Phone Number</p>
-<p class="info">518-704-9633</p>
+<p class="info">***-704-****</p>
 </div>
 <div class="email">
 <img class="imglogo2" src="images/email.png" alt="Email logo"> 
 <p class="info">My Email Address</p>
-<p class="info">hjroath1993@gmail.com</p>    
+<p class="info">hjr*******3@gmail.com</p>   
 </div>
 </article>
 
